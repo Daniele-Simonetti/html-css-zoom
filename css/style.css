@@ -12,19 +12,20 @@ body {
   background-color: black;
 }
 
+/* general rules */
+.mgr-03 {
+  margin-right: 0.3em;
+}
+
 /* testing colors */
 
-header {
-  width: 100%;
-  height: 200px;
-  /* background-color: red; */
-}
+
 
 main {
   width: 90%;
   margin: 0 auto;
   height: 500px;
-  background-color: royalblue;
+  /* background-color: royalblue; */
 }
 
 footer {
@@ -34,14 +35,35 @@ footer {
 }
 
 /* header */
+/* general header rules */
+ul.header-btn {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
 ul.header-btn li {
   list-style-type: none;
 }
-ul.header-btn {
-  justify-content: flex-end;
-  display: flex;
-}
- .header-icon {
+
+/* left and right header-btn */
+ul.header-btn button {
   color: white;
-  background-color: lightgray;
+  background-color: gray;
+  cursor: pointer;
 }
+
+li.header-left-btn button {
+  padding: 0.3em;
+  margin: 0.5em 0.5em;
+  border: 0;
+  border-radius: 7px;
+}
+
+li.header-right-btn button {
+  margin: 0.5em 0;
+  padding: 0.3em;
+  font-size: 0.8em;
+  border: 0;
+  border-radius: 3px;
+}
+
