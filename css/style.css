@@ -17,6 +17,7 @@ body {
   margin-right: 0.3em;
 }
 
+/* main */
 /* header */
 /* general header rules */
 header {
@@ -59,6 +60,7 @@ li.header-right-btn button {
   border: 0;
   border-radius: 3px;
 }
+/* /header */
 
 /* main flex section */
 main {
@@ -91,6 +93,10 @@ div.pinco-pallo div.pinco-pallo-text {
 
 /* footer */
 footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   display: flex;
 }
 footer div.left-column {
