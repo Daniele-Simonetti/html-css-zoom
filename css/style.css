@@ -67,7 +67,7 @@ main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 6% 1%;
+  margin: 5% 1% 2% 1%;
 }
 
 div.pinco-pallo {
