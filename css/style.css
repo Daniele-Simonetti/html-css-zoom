@@ -30,7 +30,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   margin: 4% auto;
-  height: calc(100vh - 50px);
   background-color: royalblue;
 }
 
@@ -95,7 +94,11 @@ div.pinco-pallo img {
 
 div.pinco-pallo div.pinco-pallo-text {
   position: absolute;
-  bottom: 0;
+  bottom: 2%;
   left: 0;
-  font-size: 0.8em;
+  color: white;
+  background-color: gray;
+  opacity: 85%;
+  padding: 1% 3%;
+  font-size: 0.7em;
 }
