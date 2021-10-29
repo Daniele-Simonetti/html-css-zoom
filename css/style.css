@@ -36,6 +36,14 @@ footer {
 
 /* header */
 /* general header rules */
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
 ul.header-btn {
   justify-content: flex-end;
   align-items: center;
