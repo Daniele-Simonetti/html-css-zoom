@@ -24,8 +24,8 @@ body {
 main {
   width: 90%;
   margin: 0 auto;
-  height: 500px;
-  /* background-color: royalblue; */
+  height: 100vh;
+  background-color: royalblue;
 }
 
 footer {
