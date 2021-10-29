@@ -28,9 +28,9 @@ div.pinco-pallo.pdr-0 {
 main {
   width: 90%;
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 4% auto;
-  background-color: royalblue;
 }
 
 footer {
@@ -47,8 +47,10 @@ header {
   right: 0;
   width: 100%;
   height: 50px;
+  z-index: 2;
   background-color: black;
 }
+
 ul.header-btn {
   justify-content: flex-end;
   align-items: center;
@@ -81,16 +83,10 @@ li.header-right-btn button {
 }
 
 div.pinco-pallo {
-  width: calc(100% / 7);
-  height: calc(100% / 5);
   position: relative;
-  padding-right: 0.5%;
+  margin-bottom: 1%;
 }
 
-div.pinco-pallo img {
-  width: 100%;
-  height: 100%;
-}
 
 div.pinco-pallo div.pinco-pallo-text {
   position: absolute;
