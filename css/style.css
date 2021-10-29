@@ -17,16 +17,6 @@ body {
   margin-right: 0.3em;
 }
 
-div.pinco-pallo.pdr-0 {
-  padding-right: 0;
-}
-
-/* testing colors */
-
-
-
-
-
 /* header */
 /* general header rules */
 header {
@@ -84,6 +74,9 @@ div.pinco-pallo {
   margin-right: 0.5%;
 }
 
+div.pinco-pallo.pdr-0 {
+  padding-right: 0;
+}
 
 div.pinco-pallo div.pinco-pallo-text {
   position: absolute;
