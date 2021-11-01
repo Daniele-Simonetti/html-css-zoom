@@ -98,21 +98,45 @@ footer {
   bottom: 0;
   left: 0;
   display: flex;
+  background-color: rgb(34, 34, 34);
 }
+
 footer div.left-column {
-  width: 25%;
-  height: 50px;
-  background-color: red;
+  width: 10%;
 }
 
 footer div.middle-column{
-  width: 50%;
-  height: 50px;
+  width: 80%;
   background-color: blue;
 }
 
 footer div.right-column {
-  width: 25%;
-  height: 50px;
+  width: 10%;
   background-color: yellow;
+}
+
+footer div.left-column ul.nav-left-btns {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  list-style: none;
+  color: white;
+  height: 100%;
+  margin: 2% 5%;
+}
+
+
+.left-column .nav-left-btns li a > * {
+  display: block;
+  text-align: center;
+}
+
+.left-column .nav-left-btns li a > i {
+  font-size: 2em;
+  margin-bottom: 5%;
+}
+
+.left-column .nav-left-btns li a {
+  text-decoration: none;
+  color: white;
 }
