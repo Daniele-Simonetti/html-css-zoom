@@ -101,16 +101,36 @@ footer {
   background-color: rgb(34, 34, 34);
 }
 
-footer div.left-column,
-footer div.right-column  {
+footer div.left-column {
   width: 10%;
 }
 
+footer div.right-column {
+  width: 7%;
+}
 footer div.middle-column{
-  width: 80%;
+  width: 83%;
 }
 
-/* left column */
+.left-column .nav-left-btns li a > *,
+.middle-column .nav-middle-btns li a > * {
+  display: block;
+  text-align: center;
+}
+
+.left-column .nav-left-btns li a > i,
+.middle-column .nav-middle-btns li a > i {
+  font-size: 2em;
+  margin-bottom: 5%;
+}
+
+.left-column .nav-left-btns li a,
+.middle-column .nav-middle-btns li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* left column spec */
 footer div.left-column ul.nav-left-btns {
   display: flex;
   align-items: baseline;
@@ -120,39 +140,7 @@ footer div.left-column ul.nav-left-btns {
   margin-top: 0.5em;
 }
 
-
-.left-column .nav-left-btns li a > * {
-  display: block;
-  text-align: center;
-}
-
-.left-column .nav-left-btns li a > i {
-  font-size: 2em;
-  margin-bottom: 5%;
-}
-
-.left-column .nav-left-btns li a {
-  text-decoration: none;
-  color: white;
-}
-
-
-/* right column */
-.middle-column .nav-middle-btns li a > * {
-  display: block;
-  text-align: center;
-}
-
-.middle-column .nav-middle-btns li a > i {
-  font-size: 2em;
-  margin-bottom: 5%;
-}
-
-.middle-column .nav-middle-btns li a {
-  text-decoration: none;
-  color: white;
-}
-
+/* middle column spec */
 footer div.middle-column ul.nav-middle-btns {
   display: flex;
   align-items: baseline;
@@ -169,4 +157,25 @@ footer div.middle-column ul.nav-middle-btns {
 
 li a#green-screen-share {
   color: lightgreen;
+}
+
+/* right column */
+footer div.right-column {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(74, 74, 74);
+}
+
+div.right-column ul.nav-right-end-btn {
+  list-style: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.right-column ul.nav-right-end-btn li > a {
+  text-decoration: none;
+  color: red;
 }
