@@ -101,28 +101,23 @@ footer {
   background-color: rgb(34, 34, 34);
 }
 
-footer div.left-column {
+footer div.left-column,
+footer div.right-column  {
   width: 10%;
 }
 
 footer div.middle-column{
   width: 80%;
-  background-color: blue;
 }
 
-footer div.right-column {
-  width: 10%;
-  background-color: yellow;
-}
-
+/* left column */
 footer div.left-column ul.nav-left-btns {
   display: flex;
   align-items: baseline;
   justify-content: space-around;
   list-style: none;
   color: white;
-  height: 100%;
-  margin: 2% 5%;
+  margin-top: 0.5em;
 }
 
 
@@ -139,4 +134,39 @@ footer div.left-column ul.nav-left-btns {
 .left-column .nav-left-btns li a {
   text-decoration: none;
   color: white;
+}
+
+
+/* right column */
+.middle-column .nav-middle-btns li a > * {
+  display: block;
+  text-align: center;
+}
+
+.middle-column .nav-middle-btns li a > i {
+  font-size: 2em;
+  margin-bottom: 5%;
+}
+
+.middle-column .nav-middle-btns li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer div.middle-column ul.nav-middle-btns {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  list-style: none;
+  color: white;
+  width: 50%;
+  margin: 0.5em auto;
+}
+
+.middle-arrow-btn {
+  font-size: 0.5em;
+}
+
+li a#green-screen-share {
+  color: lightgreen;
 }
